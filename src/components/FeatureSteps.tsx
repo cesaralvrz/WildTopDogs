@@ -1,4 +1,5 @@
 import { FeatureSteps } from "@/components/ui/feature-section"
+import { Button } from "@/components/ui/button"
 
 const features = [
   { 
@@ -30,6 +31,15 @@ export function FeatureStepsDemo() {
           autoPlayInterval={4000}
           imageHeight="h-[500px]"
         />
+        <div className="flex justify-center mt-8">
+          <Button 
+            size="lg" 
+            className="animate-appear delay-100"
+            asChild
+          >
+            <a href="">Ve a la web</a>
+          </Button>
+        </div>
       </div>
   )
 }

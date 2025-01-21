@@ -20,7 +20,6 @@ export function CTASection({ title, action, className }: CTAProps) {
           {title}
         </h2>
         <Button 
-          variant={action.variant || "default"} 
           size="lg" 
           className="animate-appear delay-100"
           asChild
