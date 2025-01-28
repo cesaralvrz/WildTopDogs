@@ -7,7 +7,7 @@ import { CTADemo } from "@/components/CTADemo";
 
 function App() {
   return (
-    <div className="px-10 py-10">
+    <div className="px-10">
       <HeroSectionDemo />
       <FeatureStepsDemo />
       <Feature />

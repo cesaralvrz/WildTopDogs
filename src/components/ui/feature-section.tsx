@@ -48,7 +48,7 @@ export function FeatureSteps({
         </h2>
 
         <div className="flex flex-col md:grid md:grid-cols-2 gap-6 md:gap-10">
-          <div className="order-2 md:order-1 space-y-8">
+          <div className="order-2 md:order-1 space-y-8 mt-32">
             {features.map((feature, index) => (
               <motion.div
                 key={index}
@@ -106,7 +106,7 @@ export function FeatureSteps({
                         alt={feature.step}
                         className="w-full h-full object-cover transition-transform transform"
                       />
-                      <div className="absolute bottom-0 left-0 right-0 h-2/3 bg-gradient-to-t from-background via-background/50 to-transparent" />
+                      <div className="absolute bottom-0 left-0 right-0 h-2/3 bg-gradient-to-t from-background via-background/10 to-transparent" />
                     </motion.div>
                   ),
               )}

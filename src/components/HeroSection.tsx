@@ -8,7 +8,7 @@ export function HeroSectionDemo() {
             <div className="relative">
                 <HeroVideoDialog
                     animationStyle="from-center"
-                    videoSrc="https://www.youtube.com/embed/qh3NGpYRG3I?si=4rb-zSdDkVK9qxxb"
+                    videoSrc="https://fast.wistia.com/embed/wazb9o313z"
                     thumbnailSrc="https://startup-template-sage.vercel.app/hero-light.png"
                     thumbnailAlt="Hero Video"
                 />

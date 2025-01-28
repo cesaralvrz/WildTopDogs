@@ -3,9 +3,9 @@ import { CTASection } from "@/components/cta-with-glow"
 export function CTADemo() {
   return (
     <CTASection
-      title="Start building today"
+      title="¿A qué esperas?"
       action={{
-        text: "Get Started",
+        text: "Consíguelo Ya",
         href: "/docs",
         variant: "default"
       }}

@@ -2,52 +2,52 @@ import { Testimonial } from "@/components/ui/testimonial-card"
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
+    name: "María",
     role: "Product Manager",
     company: "Amazun",
     rating: 5,
     image: "https://i.pravatar.cc/150?u=sarah",
-    testimonial: "This library has completely transformed how we build our UI components. The attention to detail and smooth animations make our application stand out. Highly recommended!"
+    testimonial: "La calidad del arnés es buenísima. Envío rápido y muy buen empaquetado. Sin duda lo estoy recomendando a mis amigos con perros. Muchas gracias por el buen servicio y el productazo."
   },
   {
-    name: "John Doe",
+    name: "Carmen Mellado Valero",
     role: "Software Engineer",
     company: "Goggle",
-    rating: 4,
+    rating: 5,
     image: "https://i.pravatar.cc/150?u=john",
-    testimonial: "The components are well documented and easy to customize. The code quality is top-notch and the support is excellent. I'm very happy with my purchase."
+    testimonial: "¡Calidad, comodidad y resistencia inigualables! Llevamos desde los inicios con correas, arneses y collares Wildtopdogs... NO CAMBIAMOS NI LOCOS! Nos Dan una seguridad infinita a demás de ser super cómodos para nuestros perretes. Son extremadamente resistentes así que los RECOMENDAMOS AL 100%!"
   },
   {
-    name: "Emily Chen",
+    name: "Tamara",
     role: "UX Designer",
     company: "Microsift",
     rating: 5,
     image: "https://i.pravatar.cc/150?u=emily",
-    testimonial: "The accessibility features and design system consistency are impressive. It's saved us countless hours in development time."
+    testimonial: "Un cachorro Gran Danés y su arnés. He comprado un arnés de la gama Bornwild y me ha sorprendido muchísimo la calidad, es maravilloso, súper resistente, acolchadito para la piel de nuestros peluditos. Un 10 y sin duda volveré a repetir"
   },
   {
-    name: "Emily Chen",
+    name: "Nerea",
     role: "UX Designer",
     company: "Microsift",
     rating: 5,
     image: "https://i.pravatar.cc/150?u=emily",
-    testimonial: "The accessibility features and design system consistency are impressive. It's saved us countless hours in development time."
+    testimonial: "Compra satisfactoria. Muy buena calidad. La calidad de los productos es muy buena. El arnés con doble hebilla va genial, porque mi perra tira mucho y desde que utilizo uno de estos arneses, enganchando la correa en el pecho, ha reducido la fuerza con la que tiraba. Me gusta mucho el cierre del mosquetón de la correa, ya que asegura que no se abra y disminuye las posibilidades de que se escape."
   },
   {
-    name: "Emily Chen",
+    name: "Silvia",
     role: "UX Designer",
     company: "Microsift",
     rating: 5,
     image: "https://i.pravatar.cc/150?u=emily",
-    testimonial: "The accessibility features and design system consistency are impressive. It's saved us countless hours in development time."
+    testimonial: "Excelentes !!! Un 10 se queda corto, son mi tienda de confianza: Respondieron a todas mis dudas, compré una correa que es mi nueva mejor amiga, súper ligera, agradable al tacto, fuerte y con un mosquetón de seguridad. La enviaron rapidísimo aún estando en fechas navideñas que son complicadas para el transporte. Repetiré con ellos, sin duda."
   },
   {
-    name: "Emily Chen",
+    name: "Antonio",
     role: "UX Designer",
     company: "Microsift",
     rating: 5,
     image: "https://i.pravatar.cc/150?u=emily",
-    testimonial: "The accessibility features and design system consistency are impressive. It's saved us countless hours in development time."
+    testimonial: "El arnés es de buena calidad. Ligero, resistente y se adapta perfectamente a nuestro perro. Fueron muy amables al enseñarnos como usar la apertura para el cuello."
   },
 ]
 

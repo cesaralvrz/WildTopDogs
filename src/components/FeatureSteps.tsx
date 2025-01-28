@@ -4,21 +4,15 @@ import { Button } from "@/components/ui/button"
 const features = [
   { 
     step: 'Step 1', 
-    title: 'Learn the Basics',
-    content: 'Start your Web3 journey by learning the basics of blockchain.', 
-    image: 'https://images.unsplash.com/photo-1723958929247-ef054b525153?q=80&w=2070&auto=format&fit=crop' 
+    title: 'Arnés BornWild',
+    content: 'Diseñado para perros aventureros que les guste disfrutar de todo tipo de actividades al aire libre o deporte y que necesiten un arnés todoterreno que esté a su nivel.', 
+    image: '/arnes.jpeg' 
   },
   { 
     step: 'Step 2',
-    title: 'Deep Dive',
-    content: 'Dive deep into blockchain fundamentals and smart contract development.',
-    image: 'https://images.unsplash.com/photo-1723931464622-b7df7c71e380?q=80&w=2070&auto=format&fit=crop'
-  },
-  { 
-    step: 'Step 3',
-    title: 'Build Projects',
-    content: 'Graduate with hands-on Web3 experience through building decentralized applications.',
-    image: 'https://images.unsplash.com/photo-1725961476494-efa87ae3106a?q=80&w=2070&auto=format&fit=crop'
+    title: 'Correa DualWild ',
+    content: 'Correa fabricada de nylon y acolchada con neopreno para darle comodidad y evitar quemaduras en vuestra mano manteniendo la seguridad en los paseos.',
+    image: '/correa.jpeg'
   },
 ]
 
@@ -27,7 +21,7 @@ export function FeatureStepsDemo() {
       <div className="mt-36">
         <FeatureSteps
           features={features}
-          title="Your Journey Starts Here"
+          title="Nuestro Pack: Arnés + Correa"
           autoPlayInterval={4000}
           imageHeight="h-[500px]"
         />
@@ -37,7 +31,7 @@ export function FeatureStepsDemo() {
             className="animate-appear delay-100"
             asChild
           >
-            <a href="">Ve a la web</a>
+            <a href="https://wildtopdogs.com/">Consíguelo Ya</a>
           </Button>
         </div>
       </div>
