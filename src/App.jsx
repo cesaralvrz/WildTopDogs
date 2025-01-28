@@ -7,13 +7,18 @@ import { CTADemo } from "@/components/CTADemo";
 
 function App() {
   return (
-    <div className="px-10">
-      <HeroSectionDemo />
-      <FeatureStepsDemo />
-      <Feature />
-      <TestimonialsDemo />
-      <ThreeDPhotoCarousel />
-      <CTADemo />
+    <div>
+      <nav className="flex justify-center items-center h-16 border-b bg-gray-100">
+        <img src="/logo.jpeg" alt="Logo" className="h-10" />
+      </nav>
+      <div className="px-10">
+        <HeroSectionDemo />
+        <FeatureStepsDemo />
+        <Feature />
+        <TestimonialsDemo />
+        <ThreeDPhotoCarousel />
+        <CTADemo />
+      </div>
     </div>
   );
 }
