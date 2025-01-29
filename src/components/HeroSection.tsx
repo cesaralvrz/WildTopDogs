@@ -4,7 +4,7 @@ export function HeroSectionDemo() {
     return (
         <div>
             <HeroSection />
-            <div className="relative mt-16">
+            <div className="relative mt-72 sm:mt-16">
                 <div className="wistia_responsive_padding" style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
                     <div className="wistia_responsive_wrapper" style={{ height: '100%', left: 0, position: 'absolute', top: 0, width: '100%' }}>
                         <iframe 
