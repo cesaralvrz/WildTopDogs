@@ -1,17 +1,27 @@
 import HeroSection from "@/components/ui/hero-section";
-import { HeroVideoDialog } from "@/components/ui/hero-video-dialog"
 
 export function HeroSectionDemo() {
     return (
         <div>
             <HeroSection />
-            <div className="relative">
-                <HeroVideoDialog
-                    animationStyle="from-center"
-                    videoSrc="https://cliimber.wistia.com/medias/wazb9o313z?wvideo=wazb9o313z"
-                    thumbnailSrc="https://embed-ssl.wistia.com/deliveries/49fbfcad314cdd6f958bc16c7a5c64a07b5246c9.jpg?image_play_button_size=2x&image_crop_resized=960x540&image_play_button=1&image_play_button_color=000000e0"
-                    thumbnailAlt="VSL Wildtopdogs"
-                />
+            <div className="relative mt-16">
+                <div className="wistia_responsive_padding" style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
+                    <div className="wistia_responsive_wrapper" style={{ height: '100%', left: 0, position: 'absolute', top: 0, width: '100%' }}>
+                        <iframe 
+                            src="https://fast.wistia.net/embed/iframe/wazb9o313z"
+                            title="VSL Wildtopdogs"
+                            allow="autoplay; fullscreen"
+                            allowTransparency={true}
+                            frameBorder="0"
+                            scrolling="no"
+                            className="wistia_embed"
+                            name="wistia_embed"
+                            width="100%"
+                            height="100%"
+                        ></iframe>
+                    </div>
+                </div>
+                <script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
             </div>
         </div>
     )
