@@ -14,4 +14,5 @@ const images = [
   "/dog5.jpeg",
   "/dog6.jpeg",
   "/dog1.jpeg",
+  "/dog6.jpeg",
 ];
