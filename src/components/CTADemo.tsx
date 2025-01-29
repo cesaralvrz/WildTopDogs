@@ -6,7 +6,7 @@ export function CTADemo() {
       title="¿A qué esperas?"
       action={{
         text: "Consíguelo Ya",
-        href: "/docs",
+        href: "https://wildtopdogs.com/",
         variant: "default"
       }}
     />

@@ -18,7 +18,10 @@ const features = [
 
 export function FeatureStepsDemo() {
   return (
-      <div className="mt-36">
+      <div
+        id="pack-section"
+        className="mt-36"
+      >
         <FeatureSteps
           features={features}
           title="Nuestro Pack: Arnés + Correa"
