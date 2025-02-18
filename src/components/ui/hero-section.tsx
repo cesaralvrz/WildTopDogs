@@ -15,8 +15,8 @@ const HeroSection = () => {
                 </p>
 
                 <div className='flex gap-2 mt-2 mb-12'>
-                    <div className="relative cursor-pointer inline-flex items-center gap-2 px-6 py-3 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 hover:bg-zinc-800 dark:hover:bg-zinc-200 rounded-xl overflow-hidden shadow-lg shadow-zinc-900/20 dark:shadow-zinc-100/20 mt-4">
-                        <a href="#pack-section" className="relative z-10 flex items-center gap-2">Consigue tu pack</a>
+                    <div className="relative cursor-pointer inline-flex items-center gap-2 px-8 py-5 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 hover:bg-zinc-800 dark:hover:bg-zinc-200 rounded-xl overflow-hidden shadow-lg shadow-zinc-900/20 dark:shadow-zinc-100/20 mt-4">
+                        <a href="https://wildtopdogs.com/producto/arnes-bornwild-y-correa-2m/" className="relative z-10 flex items-center gap-2 text-xl">Consigue tu pack</a>
                     </div>
                 </div>
             </div>

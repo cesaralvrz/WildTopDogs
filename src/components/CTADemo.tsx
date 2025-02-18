@@ -6,7 +6,7 @@ export function CTADemo() {
       title="¿A qué esperas?"
       action={{
         text: "Consíguelo Ya",
-        href: "https://wildtopdogs.com/",
+        href: "https://wildtopdogs.com/producto/arnes-bornwild-y-correa-2m/",
         variant: "default"
       }}
     />

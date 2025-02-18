@@ -34,7 +34,7 @@ export function FeatureStepsDemo() {
             className="animate-appear delay-100"
             asChild
           >
-            <a href="https://wildtopdogs.com/">Consíguelo Ya</a>
+            <a href="https://wildtopdogs.com/producto/arnes-bornwild-y-correa-2m/">Consíguelo Ya</a>
           </Button>
         </div>
       </div>
