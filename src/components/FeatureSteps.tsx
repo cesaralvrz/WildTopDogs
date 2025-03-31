@@ -28,14 +28,22 @@ export function FeatureStepsDemo() {
           autoPlayInterval={4000}
           imageHeight="h-[500px]"
         />
-        <div className="flex justify-center mt-8">
-          <Button 
-            size="lg" 
-            className="animate-appear delay-100"
-            asChild
-          >
-            <a href="https://wildtopdogs.com/producto/arnes-bornwild-y-correa-2m/">Consíguelo Ya</a>
-          </Button>
+        <div className="flex justify-center mt-24 mb-6">
+          <div className="flex flex-col items-center mt-8">
+            <p className="text-2xl font-semibold text-gray-800 mb-2 text-center">
+              10% de descuento en los primeros 12 packs.<br/>
+            </p>
+            <p className="text-3xl font-bold text-red-600 mb-4 animate-pulse">
+              ¡No te quedes sin él!
+            </p>
+            <Button 
+              size="xl" 
+              className="animate-appear delay-100"
+              asChild
+            >
+              <a href="https://wildtopdogs.com/producto/arnes-bornwild-y-correa-2m/" className="text-xl">¡CONSÍGUELO YA!</a>
+            </Button>
+          </div>
         </div>
       </div>
   )

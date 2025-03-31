@@ -16,15 +16,18 @@ export function CTASection({ title, action, className }: CTAProps) {
   return (
     <section className={cn("group relative overflow-hidden py-24 sm:py-32", className)}>
       <div className="relative z-10 mx-auto flex max-w-container flex-col items-center gap-6 text-center sm:gap-8">
-        <h2 className="text-3xl font-semibold sm:text-5xl animate-appear">
+        <h2 className="text-2xl font-semibold sm:text-4xl animate-appear">
           {title}
         </h2>
+        <p className="text-3xl font-bold text-orange-600 mb-4 animate-pulse">
+          Se uno de ellos
+        </p>
         <Button 
-          size="lg" 
-          className="animate-appear delay-100"
+          size="xl" 
+          className="animate-appear shadow-lg delay-100 bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-700 hover:to-orange-600"
           asChild
         >
-          <a href={action.href}>{action.text}</a>
+          <a href={action.href} className="text-xl">{action.text}</a>
         </Button>
       </div>
       <div className="absolute left-0 top-0 h-full w-full translate-y-[1rem] opacity-80 transition-all duration-500 ease-in-out group-hover:translate-y-[-2rem] group-hover:opacity-100">
