@@ -31,7 +31,7 @@ export function FeatureStepsDemo() {
         <div className="flex justify-center mt-24 mb-6">
           <div className="flex flex-col items-center mt-8">
             <p className="text-2xl font-semibold text-gray-800 mb-2 text-center">
-              10% de descuento en los primeros 12 packs.<br/>
+              10% de descuento en los primeros 5 packs.<br/>
             </p>
             <p className="text-3xl font-bold text-red-600 mb-4 animate-pulse">
               ¡No te quedes sin él!

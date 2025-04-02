@@ -23,9 +23,15 @@ export function HeroSectionDemo() {
                 </div>
                 <script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
             </div>
-            <div className='flex justify-center mt-12 mb-12'>
-                <div className="relative cursor-pointer inline-flex items-center gap-2 px-8 py-5 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 hover:bg-zinc-800 dark:hover:bg-zinc-200 rounded-xl overflow-hidden shadow-lg shadow-zinc-900/20 dark:shadow-zinc-100/20">
-                    <a href="https://wildtopdogs.com/producto/arnes-bornwild-y-correa-2m/" className="relative z-10 flex items-center gap-2 text-xl">Consigue tu pack</a>
+            <div className='flex flex-col items-center mt-20 mb-16'>
+                <p className="text-2xl font-semibold text-gray-800 mb-2 text-center">
+                10% de descuento en los primeros 5 packs.<br/>
+                </p>
+                <p className="text-3xl font-bold text-red-600 mb-4 animate-pulse">
+                ¡No te quedes sin él!
+                </p>
+                <div className="relative cursor-pointer inline-flex items-center gap-2 px-12 py-6 animate-appear delay-100 bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-700 hover:to-orange-600 rounded-xl overflow-hidden shadow-lg shadow-zinc-900/20 dark:shadow-zinc-100/20">
+                    <a href="https://wildtopdogs.com/producto/arnes-bornwild-y-correa-2m/" className="relative z-10 flex items-center gap-2 text-xl text-white">CONSIGUE TU PACK</a>
                 </div>
             </div>
         </div>
